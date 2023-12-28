@@ -1,0 +1,92 @@
+.rightDiv{
+    position: relative;
+    /* right: 5px; */
+    top:30px;
+
+} 
+
+.blogCards{
+padding: 5px;
+margin: 5px;
+border-radius: 5px;
+
+    filter: drop-shadow(4px 3px 6px #e1c9d7);
+background:drop-shadow(0.50em 0.50em 0.3em);
+}
+.cardTitle{
+    text-align: center;
+    font-family: sans-serif;
+        text-shadow: 2px 2px #ded9e7;
+}
+.FaqSection{
+    position: relative;
+        padding: 1%;
+        left: -5rem;
+}
+.Addingsection{
+    position: relative;
+        padding: 1%;
+        right: 0rem;
+}
+.formLabel{
+    box-shadow: none;
+}
+.DirectionButton{
+    position: relative;
+        left: 75%;
+        padding: 5px;
+        margin: 10px;
+        border-radius: 25px;
+        color: black;
+            background: #e7f1ff;
+}
+.searchBox{
+        position: relative;
+            right: -75%;
+            margin: 8px;
+            padding: 12px;
+                border: 0px;
+                box-shadow: 3px 4px #e7f1ff;
+                border-radius: 10px;
+}
+.CardImagesStyle{
+    width: 500px;
+}
+@media only screen and (max-width: 1000px) {
+    .leftDiv {
+        display: none;
+    }
+    .blogCards{
+        
+        width: 16rem;
+            padding: 5px;
+            margin: 2rem;
+    }
+    .midDiv{
+        padding: 2px;
+        margin: 5px;
+    }
+    .rightDiv{
+    display: flow-root;
+    }
+}
+@media only screen and (max-width: 578px) {
+    .leftDiv {
+        display: none;
+    }
+
+    .blogCards {
+
+        width: 10rem;
+    margin: auto;
+        margin-top: 20px;
+    }
+
+}
+@media only screen and (max-width:400px){
+    .cardImages{
+        height: auto;
+        width: auto;
+    }
+}
+       
